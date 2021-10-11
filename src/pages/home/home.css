@@ -1,0 +1,10 @@
+.home{
+    flex: 4;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}
