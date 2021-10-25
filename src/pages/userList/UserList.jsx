@@ -21,7 +21,6 @@ export default function UserList() {
       renderCell: (params) => {
         return (
           <div className="userListUser">
-            <img className="userListImg" src={params.row.avatar} alt="" />
             {params.row.username}
           </div>
         );
@@ -34,8 +33,8 @@ export default function UserList() {
       width: 120,
     },
     {
-      field: "transaction",
-      headerName: "Transaction Volume",
+      field: "phone",
+      headerName: "Phone",
       width: 160,
     },
     {
